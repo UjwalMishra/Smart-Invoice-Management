@@ -162,8 +162,13 @@ async function initializeEmailProcessing(userId) {
           /^\d{2}[A-Z]{5}\d{4}[A-Z]{1}\d{1}[Z]{1}[A-Z\d]{1}$/.test(gstin);
 
         // Transform amounts
-        const transformAmount = (value) =>
-          Math.round(parseFloat(String(value).replace(/,/g, "")) * 100) / 100;
+        // const transformAmount = (value) =>
+        //   Math.round(parseFloat(String(value).replace(/,/g, "")) * 100) / 100;
+
+        const transformAmount = (value) => {
+          const number = parseFloat(String(value || "0").replace(/,/g, ""));
+          return isNaN(number) ? 0 : Math.round(number * 100) / 100;
+        };
 
         // Create invoice document
         const invoiceDoc = new Invoice({

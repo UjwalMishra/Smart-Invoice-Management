@@ -175,3 +175,5 @@ invoiceSchema.index({ "parties.supplier.name": 1 });
 invoiceSchema.index({ "parties.customer.name": 1 });
 
 module.exports = mongoose.model("Invoice", invoiceSchema);
+
+//store this in db

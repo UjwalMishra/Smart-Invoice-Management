@@ -15,3 +15,81 @@
 [2025-04-10T18:56:03.259Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
 [2025-04-10T18:56:03.274Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
 [2025-04-10T18:56:03.483Z] [INFO] [USER:67f779c498465c069fa91ad5] ✅ Invoice saved: 67f81443b02d84c175231ac5
+[2025-04-10T21:11:53.263Z] [INFO] [USER:67f779c498465c069fa91ad5] 📧 Found invoice-related content in email body
+[2025-04-10T21:11:53.269Z] [ERROR] [USER:67f779c498465c069fa91ad5] ❌ Invoice save failed: Missing invoice number
+[2025-04-10T21:11:53.541Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-10T21:12:00.209Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:12:02.160Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:13:00.702Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:13:03.273Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:13:03.278Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-10T21:13:03.570Z] [ERROR] [USER:67f779c498465c069fa91ad5] ❌ Invoice save failed: Invoice validation failed: amounts.tax.cgst: Cast to Number failed for value "NaN" (type number) at path "cgst", amounts.tax.sgst: Cast to Number failed for value "NaN" (type number) at path "sgst", amounts.total: Cast to Number failed for value "NaN" (type number) at path "amounts.total"
+[2025-04-10T21:14:00.245Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:14:02.410Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:15:00.769Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:15:02.740Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:16:00.318Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:17:00.129Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-10T21:17:00.255Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:17:02.264Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:18:00.688Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:18:03.302Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:18:03.329Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-10T21:18:03.650Z] [INFO] [USER:67f779c498465c069fa91ad5] ✅ Invoice saved: 67f8358b6939f57762275fab
+[2025-04-10T21:19:00.208Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:19:03.027Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:20:00.667Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:20:03.594Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:32:46.807Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-10T21:33:00.363Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:33:03.649Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:34:00.921Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:34:03.548Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: OD330914786585154100_250409_232618.pdf
+[2025-04-10T21:34:03.591Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:34:03.895Z] [INFO] [USER:67f779c498465c069fa91ad5] ✅ Invoice saved: 67f8394bb2b7b9d95bf19ac3
+[2025-04-10T21:35:00.498Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:35:02.478Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:36:00.045Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:36:02.008Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:37:00.602Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:37:03.374Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:38:00.178Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:38:02.237Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:39:00.530Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:39:02.526Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:40:00.863Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:40:02.801Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:41:00.298Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:41:02.336Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:42:00.828Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:42:02.862Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:48:39.880Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-10T21:49:00.082Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:49:02.627Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: OD330914786585154100_250409_232618.pdf
+[2025-04-10T21:49:02.677Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:49:02.880Z] [WARN] [USER:67f779c498465c069fa91ad5] ⚠️ Skipping unsupported file type: application/pdf
+[2025-04-10T21:50:00.554Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:50:02.604Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:51:00.927Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:51:02.993Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:52:00.303Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:52:02.233Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:53:00.673Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:53:07.185Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:54:00.106Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:54:04.497Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:55:00.468Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:55:04.497Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:55:04.508Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-10T21:55:04.555Z] [WARN] [USER:67f779c498465c069fa91ad5] ⚠️ Skipping unsupported file type: application/pdf
+[2025-04-10T21:56:34.416Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-10T21:57:00.390Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:57:03.302Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:57:03.326Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-10T21:57:03.613Z] [INFO] [USER:67f779c498465c069fa91ad5] ✅ Invoice saved: 67f83eaf21b1865bd38dba4f
+[2025-04-10T21:58:00.898Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:58:02.834Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T21:59:00.235Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T21:59:02.278Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T22:00:00.736Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T22:00:02.854Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices

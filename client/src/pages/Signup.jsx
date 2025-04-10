@@ -1,6 +1,7 @@
+// pages/Signup.jsx
 import React, { useState } from "react";
 import axios from "axios";
-// import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -11,7 +12,7 @@ const Signup = () => {
 
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
-  //   const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,9 +28,7 @@ const Signup = () => {
       const res = await axios.post(
         "http://localhost:8000/api/auth/signup",
         formData,
-        {
-          withCredentials: true,
-        }
+        { withCredentials: true }
       );
 
       setMessage(res.data.message);
@@ -45,9 +44,9 @@ const Signup = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
-      <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-md">
-        <h2 className="text-2xl font-semibold text-center text-gray-800 mb-6">
+    <div className="min-h-screen flex items-center justify-center bg-gray-950 text-white px-4">
+      <div className="bg-gray-900 p-8 rounded-2xl shadow-2xl w-full max-w-md">
+        <h2 className="text-3xl font-bold text-green-400 text-center mb-6">
           Create an Account
         </h2>
 
@@ -59,7 +58,7 @@ const Signup = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-400"
           />
 
           <input
@@ -69,7 +68,7 @@ const Signup = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-400"
           />
 
           <input
@@ -79,30 +78,31 @@ const Signup = () => {
             value={formData.password}
             onChange={handleChange}
             required
-            className="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-400"
+            autoComplete="current-password"
           />
 
           <button
             type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition duration-300"
+            className="w-full bg-green-500 text-black font-semibold py-2 rounded-xl hover:bg-green-400 transition duration-300"
           >
             Sign Up
           </button>
         </form>
 
         {message && (
-          <p className="text-green-600 mt-4 text-center">{message}</p>
+          <p className="text-green-400 mt-4 text-center">{message}</p>
         )}
-        {error && <p className="text-red-600 mt-4 text-center">{error}</p>}
+        {error && <p className="text-red-400 mt-4 text-center">{error}</p>}
 
-        <p className="mt-6 text-center text-sm text-gray-500">
+        <p className="mt-6 text-center text-sm text-gray-400">
           Already have an account?{" "}
-          <span
-            className="text-blue-600 hover:underline cursor-pointer"
-            // onClick={() => navigate("/login")}
+          <Link
+            to="/login"
+            className="text-green-400 hover:underline cursor-pointer"
           >
             Log in
-          </span>
+          </Link>
         </p>
       </div>
     </div>

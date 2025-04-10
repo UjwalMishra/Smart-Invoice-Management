@@ -93,3 +93,27 @@
 [2025-04-10T21:59:02.278Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
 [2025-04-10T22:00:00.736Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
 [2025-04-10T22:00:02.854Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T23:04:00.231Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T23:04:02.946Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T23:04:06.771Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-10T23:05:00.790Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T23:05:04.374Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T23:05:04.397Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-10T23:05:04.645Z] [ERROR] [USER:67f779c498465c069fa91ad5] ❌ Invoice save failed: Invoice validation failed: user: Path `user` is required.
+[2025-04-10T23:06:00.315Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T23:06:03.167Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T23:07:00.889Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T23:07:03.791Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T23:08:00.472Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T23:08:03.339Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T23:09:00.003Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T23:09:02.910Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T23:09:51.598Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-10T23:10:00.900Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T23:10:02.786Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T23:11:00.516Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T23:11:03.147Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T23:11:03.171Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-10T23:11:03.456Z] [INFO] [USER:67f779c498465c069fa91ad5] ✅ Invoice saved: 67f850076e93a1879c654d31
+[2025-04-10T23:12:00.070Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T23:12:02.083Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices

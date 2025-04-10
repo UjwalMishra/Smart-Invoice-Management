@@ -13,7 +13,7 @@ router.post("/signin", signinController);
 
 //update details
 console.log(typeof updateGmailDetails);
-router.put("/addGmailAppPass", restrictToLoggedinUserOnly, updateGmailDetails);
+router.put("/addgmailappPass", restrictToLoggedinUserOnly, updateGmailDetails);
 
 // Log-out route - clears the token cookie
 router.post("/logout", (req, res) => {

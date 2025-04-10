@@ -172,6 +172,7 @@ async function initializeEmailProcessing(userId) {
 
         // Create invoice document
         const invoiceDoc = new Invoice({
+          user: userId,
           metadata: {
             number: invoiceData.metadata.invoiceNumber,
             type: invoiceData.metadata.type || "TAX_INVOICE",

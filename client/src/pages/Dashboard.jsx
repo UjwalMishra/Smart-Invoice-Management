@@ -1,16 +1,9 @@
 import React, { useState } from "react";
-import {
-  PieChart,
-  Pie,
-  Cell,
-  Tooltip,
-  ResponsiveContainer,
-} from "recharts";
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 
 // Custom Button component with dark theme styles
 const Button = ({ children, onClick, variant }) => {
-  const baseStyles =
-    "px-4 py-2 rounded-xl font-medium transition duration-300";
+  const baseStyles = "px-4 py-2 rounded-xl font-medium transition duration-300";
   const variantStyles =
     variant === "default"
       ? "bg-gradient-to-r from-teal-500 to-cyan-600 text-white hover:from-cyan-600 hover:to-teal-500 shadow-md"
@@ -110,39 +103,50 @@ export default function Dashboard() {
         <div>
           <h2 className="text-2xl font-semibold mb-4">Invoice Status</h2>
           <ResponsiveContainer width="100%" height={300}>
-  <PieChart>
-    <defs>
-      <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
-        <feDropShadow dx="0" dy="0" stdDeviation="4" floodColor="#000" floodOpacity="0.5" />
-      </filter>
-    </defs>
-    <Pie
-      data={pieChartData}
-      dataKey="value"
-      nameKey="name"
-      cx="50%"
-      cy="50%"
-      innerRadius={60}
-      outerRadius={100}
-      startAngle={320}
-      endAngle={-40}
-      fill="#8884d8"
-      label
-      stroke="#1F2937"
-      strokeWidth={2}
-    >
-      {pieChartData.map((entry, index) => (
-        <Cell
-          key={`cell-${index}`}
-          fill={COLORS[index % COLORS.length]}
-          style={{ filter: "url(#shadow)" }}
-        />
-      ))}
-    </Pie>
-    <Tooltip />
-  </PieChart>
-</ResponsiveContainer>
-
+            <PieChart>
+              <defs>
+                <filter
+                  id="shadow"
+                  x="-50%"
+                  y="-50%"
+                  width="200%"
+                  height="200%"
+                >
+                  <feDropShadow
+                    dx="0"
+                    dy="0"
+                    stdDeviation="4"
+                    floodColor="#000"
+                    floodOpacity="0.5"
+                  />
+                </filter>
+              </defs>
+              <Pie
+                data={pieChartData}
+                dataKey="value"
+                nameKey="name"
+                cx="50%"
+                cy="50%"
+                innerRadius={60}
+                outerRadius={100}
+                startAngle={320}
+                endAngle={-40}
+                fill="#8884d8"
+                label
+                stroke="#1F2937"
+                strokeWidth={2}
+              >
+                {pieChartData.map((entry, index) => (
+                  <Cell
+                    key={`cell-${index}`}
+                    fill={COLORS[index % COLORS.length]}
+                    style={{ filter: "url(#shadow)" }}
+                  />
+                ))}
+              </Pie>
+              <Tooltip />
+            </PieChart>
+          </ResponsiveContainer>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

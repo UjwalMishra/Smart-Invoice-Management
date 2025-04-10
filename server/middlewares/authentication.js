@@ -12,18 +12,28 @@ function checkAuthCookie(cookieName) {
       return next();
     } catch (err) {
       console.error("Token validation failed:", err);
-      return res.redirect("/user/signin");
+      req.user = null;
+      return next(); // don't redirect – let frontend decide
     }
   };
 }
 
 async function restrictToLoggedinUserOnly(req, res, next) {
   const tokenVal = req.cookies.token;
-  console.log("token : ", tokenVal);
-  //validations
+
   if (!tokenVal) {
-    return res.redirect("/user/signin");
+    return res.status(401).json({ message: "Unauthorized: No token found" });
   }
-  next();
+
+  try {
+    const { validateToken } = require("../services/authentication");
+    const userPayload = validateToken(tokenVal);
+    req.user = userPayload;
+    next();
+  } catch (err) {
+    console.error("Token validation failed:", err);
+    return res.status(401).json({ message: "Unauthorized: Invalid token" });
+  }
 }
+
 module.exports = { checkAuthCookie, restrictToLoggedinUserOnly };

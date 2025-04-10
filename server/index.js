@@ -55,8 +55,10 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
 // Import routes
+const emailAutomationRoutes = require("./routes/emailRoutes");
 const userRoutes = require("./routes/user");
 const { dbConnect } = require("./config/dbConnection");
+// const { processEmail } = require("./controllers/emailProcessor");
 
 const app = express();
 const PORT = process.env.PORT || 8000;
@@ -76,10 +78,20 @@ app.use(
 
 // API routes
 app.use("/api/auth", userRoutes); // 🔁 Use cleaner path
+app.use("/api/automation", emailAutomationRoutes);
 
 app.get("/", (req, res) => {
   res.status(200).json({ message: "API is running" });
 });
+
+// app.get("/api/check-email", async (req, res) => {
+//   try {
+//     await processEmail();
+//     res.json({ success: true, message: "Email check completed" });
+//   } catch (err) {
+//     res.status(500).json({ success: false, message: err.message });
+//   }
+// });
 
 // 404 handler
 app.use((req, res) => {

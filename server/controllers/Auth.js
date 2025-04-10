@@ -80,50 +80,33 @@ const signinController = async (req, res) => {
   }
 };
 
-// const signinController = async (req, res) => {
-//   try {
-//     const { email, password } = req.body;
+const updateGmailDetails = async (req, res) => {
+  const userId = req.user?._id;
+  const { gmailAddress, gmailAppPassword } = req.body;
 
-//     if (!email || !password) {
-//       return res
-//         .status(400)
-//         .json({ error: "Please enter both email and password" });
-//     }
+  if (!gmailAddress || !gmailAppPassword) {
+    return res.status(400).json({ message: "Both fields are required" });
+  }
 
-//     const user = await User.findOne({ email }).select("+password");
+  try {
+    const user = await User.findByIdAndUpdate(
+      userId,
+      {
+        gmailAddress,
+        gmailAppPassword,
+      },
+      { new: true }
+    );
 
-//     if (!user) {
-//       return res.status(404).json({ error: "User not found, Please signup" });
-//     }
-
-//     const isMatch = await bcrypt.compare(password, user.password);
-//     if (!isMatch) {
-//       return res.status(401).json({ error: "Incorrect Password" });
-//     }
-
-//     const token = createTokenForUser(user);
-
-//     return res
-//       .status(200)
-//       .cookie("token", token, {
-//         // httpOnly: true,
-//         // secure: process.env.NODE_ENV === "production",
-//         // sameSite: "strict",
-//       })
-//       .json({
-//         message: "Signin successful",
-//         user: { name: user.name, email: user.email },
-//         token,
-//       });
-//   } catch (err) {
-//     console.error("Error during signin:", err);
-//     return res
-//       .status(500)
-//       .json({ error: "An error occurred while signing in. Please try again." });
-//   }
-// };
+    res.status(200).json({ message: "Gmail details updated successfully" });
+  } catch (err) {
+    console.error("Error updating Gmail details:", err);
+    res.status(500).json({ message: "Server error" });
+  }
+};
 
 module.exports = {
   signupController,
   signinController,
+  updateGmailDetails,
 };

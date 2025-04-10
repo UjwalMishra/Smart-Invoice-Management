@@ -1,0 +1,17 @@
+[2025-04-10T18:26:50.177Z] [ERROR] [USER:67f7806ea06ea60a74247617] ❌ Initial processing failed: Invalid credentials (Failure)
+[2025-04-10T18:30:00.478Z] [INFO] [USER:67f7806ea06ea60a74247617] ⏰ Running scheduled email check
+[2025-04-10T18:30:01.490Z] [ERROR] [USER:67f7806ea06ea60a74247617] ❌ Scheduled job failed: Invalid credentials (Failure)
+[2025-04-10T18:35:00.500Z] [INFO] [USER:67f7806ea06ea60a74247617] ⏰ Running scheduled email check
+[2025-04-10T18:35:01.418Z] [ERROR] [USER:67f7806ea06ea60a74247617] ❌ Scheduled job failed: Invalid credentials (Failure)
+[2025-04-10T18:40:00.531Z] [INFO] [USER:67f7806ea06ea60a74247617] ⏰ Running scheduled email check
+[2025-04-10T18:40:01.641Z] [ERROR] [USER:67f7806ea06ea60a74247617] ❌ Scheduled job failed: Invalid credentials (Failure)
+[2025-04-10T18:45:00.450Z] [INFO] [USER:67f7806ea06ea60a74247617] ⏰ Running scheduled email check
+[2025-04-10T18:45:01.549Z] [ERROR] [USER:67f7806ea06ea60a74247617] ❌ Scheduled job failed: Invalid credentials (Failure)
+[2025-04-10T18:53:52.562Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-10T18:54:47.977Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-10T18:55:00.203Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T18:55:02.248Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T18:56:00.571Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-10T18:56:03.259Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-10T18:56:03.274Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-10T18:56:03.483Z] [INFO] [USER:67f779c498465c069fa91ad5] ✅ Invoice saved: 67f81443b02d84c175231ac5

@@ -46,7 +46,7 @@ const Signup = () => {
   // ========================================================================
   // PASTE YOUR IMAGE URL HERE:
   const backgroundImageStyle = {
-    backgroundImage: `url('https://img.freepik.com/free-photo/3d-render-abstract-digital-background-with-flowing-cyber-lines_1048-14167.jpg?t=st=1744292687~exp=1744296287~hmac=050f3ab5178e839cd9d7be9c95bd84cea2ac09eacd3b0d9276f89ba93a8767e0&w=1060')`,
+    backgroundImage: 'url("/bg.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

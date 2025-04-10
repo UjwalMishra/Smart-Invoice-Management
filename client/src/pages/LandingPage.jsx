@@ -36,11 +36,6 @@ const LandingPage = () => {
           </button>
         </div>
 
-        <div className="text-sm bg-white/5 border border-white/10 px-6 py-3 rounded-xl">
-          <span className="text-teal-400 font-semibold">Trusted by</span>{" "}
-          <span className="font-bold text-white text-lg">500+</span>{" "}
-          <span className="text-gray-400">companies worldwide</span>
-        </div>
       </div>
 
       {/* Key Features Section */}

@@ -30,7 +30,7 @@ const Login = () => {
       );
       setSuccess(res.data.message);
       setTimeout(() => {
-        navigate("/dashboard"); // change as needed
+        navigate("/dashboard"); // Change as needed
       }, 1500);
     } catch (err) {
       if (err.response && err.response.data) {
@@ -43,8 +43,21 @@ const Login = () => {
     }
   };
 
+  // Replace 'YOUR_IMAGE_LINK_HERE' with the actual link to your image
+  const backgroundImageStyle = {
+    backgroundImage: `url('https://img.freepik.com/free-photo/3d-render-abstract-digital-background-with-flowing-cyber-lines_1048-14167.jpg?t=st=1744292687~exp=1744296287~hmac=050f3ab5178e839cd9d7be9c95bd84cea2ac09eacd3b0d9276f89ba93a8767e0&w=1060')`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)', // Optional: Dark overlay
+    backgroundBlendMode: 'darken', // Optional: Blend mode
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-950 text-white px-4">
+    <div
+      className="min-h-screen flex items-center justify-center text-white px-4"
+      style={backgroundImageStyle}
+    >
       <div className="bg-gray-900 p-8 rounded-2xl shadow-xl w-full max-w-md">
         <h2 className="text-3xl font-bold text-teal-400 text-center mb-6">
           Login to Your Account

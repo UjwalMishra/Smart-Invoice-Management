@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from "react-router-dom";
 const LandingPage = () => {
   return (
     <>
@@ -29,9 +29,11 @@ const LandingPage = () => {
         </p>
 
         <div className="flex gap-4 mb-10">
-          <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition duration-300">
-            Get Started
-          </button>
+          <NavLink to="/login">
+            <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition duration-300">
+              Get Started
+            </button>
+          </NavLink>
           <button className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold border border-gray-600 transition duration-300">
             Watch Demo
           </button>
@@ -162,9 +164,11 @@ const LandingPage = () => {
               invoice workflows and saved thousands of hours.
             </p>
             <div className="flex gap-4">
-              <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition duration-300">
-                Start Free Trial →
-              </button>
+              <NavLink to="/login">
+                <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold shadow-md transition duration-300">
+                  Start Free Trial →
+                </button>
+              </NavLink>
               <button className="bg-gray-900 hover:bg-gray-800 text-white px-6 py-3 rounded-lg font-semibold border border-gray-600 transition duration-300">
                 Schedule Demo
               </button>
@@ -411,7 +415,7 @@ const LandingPage = () => {
 
         {/* Copyright and Legal */}
         <div className="mt-8 pt-8 border-t border-gray-700 text-center text-sm text-gray-400">
-          <p>&copy; 2025 InvoiceAI. All rights reserved.</p>
+          <p>&copy; 2025 SmartInvoice. All rights reserved.</p>
           <div className="mt-4 space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">
               Privacy Policy

@@ -40,7 +40,7 @@ const Navbar = () => {
                 />
               </svg>
               <span className="text-2xl font-bold text-white font-mono">
-                InvoicePro
+                SmartInvoice
               </span>
             </Link>
           </div>

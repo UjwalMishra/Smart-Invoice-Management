@@ -161,3 +161,84 @@
 [2025-04-11T04:50:02.881Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
 [2025-04-11T04:50:02.889Z] [INFO] [USER:67f8979439d6c236ad756b0a] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
 [2025-04-11T04:50:02.988Z] [INFO] [USER:67f8979439d6c236ad756b0a] ✅ Invoice saved: 67f89f7a0d5939c62474af11
+[2025-04-11T06:02:34.193Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🚀 Initial processing completed: 0 invoices
+[2025-04-11T06:03:00.329Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:03:04.615Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:03:04.628Z] [INFO] [USER:67f8979439d6c236ad756b0a] 📎 Processing attachment: invoice-a00121236-jio-guru-nanak-dev-university.pdf
+[2025-04-11T06:03:04.954Z] [INFO] [USER:67f8979439d6c236ad756b0a] ✅ Invoice saved: 67f8b098be2f157dc4e908fd
+[2025-04-11T06:04:00.822Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:04:04.557Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:05:00.444Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:05:04.593Z] [INFO] [USER:67f8979439d6c236ad756b0a] 📎 Processing attachment: invoice-a00121235-samsung-the-card-point.pdf
+[2025-04-11T06:05:04.650Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:05:04.722Z] [INFO] [USER:67f8979439d6c236ad756b0a] ✅ Invoice saved: 67f8b110be2f157dc4e90909
+[2025-04-11T06:06:00.058Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:06:04.168Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:07:00.557Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:07:06.617Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:08:00.041Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:08:02.445Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:09:00.554Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:09:03.763Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:10:00.122Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:10:02.804Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:11:00.727Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:11:08.624Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:12:00.301Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:12:03.754Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:13:00.891Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:13:04.927Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:14:00.499Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:14:05.770Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:15:00.078Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:15:05.786Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:16:00.612Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:16:03.130Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:17:00.143Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:17:04.828Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:18:00.737Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:18:08.177Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:19:00.279Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:19:08.073Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:20:00.852Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:20:07.642Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:21:00.401Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:21:09.477Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:22:00.899Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:22:18.833Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:23:00.515Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:23:17.520Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:24:00.109Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:24:16.942Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:25:00.688Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:25:05.849Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:26:00.260Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:26:07.766Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:27:00.832Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:27:37.978Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:27:37.985Z] [INFO] [USER:67f8979439d6c236ad756b0a] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-11T06:27:38.556Z] [INFO] [USER:67f8979439d6c236ad756b0a] ✅ Invoice saved: 67f8b65abe2f157dc4e90991
+[2025-04-11T06:28:00.368Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:28:09.586Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:29:00.944Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:29:09.374Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:30:00.494Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:30:03.087Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:32:00.561Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:32:03.404Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:33:00.060Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:33:02.621Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:34:00.589Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:34:03.112Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:35:00.052Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:35:03.163Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:36:00.540Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:36:03.680Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:37:00.972Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:37:04.115Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:38:00.502Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:38:04.435Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:39:00.927Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:39:03.370Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T06:40:00.359Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T06:40:06.859Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices

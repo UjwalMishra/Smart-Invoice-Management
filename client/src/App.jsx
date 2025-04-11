@@ -11,6 +11,7 @@ import Sohampage from "./pages/Sohampage";
 import DashBoard from "./pages/DashBoard";
 import Navbar from "./components/Navbar";
 import GmailDetailsForm from "./pages/GmailDetailsForm";
+import ChatBot from "./components/ChatBot";
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
         <Route path="/team/ujwal" element={<Ujwalpage />} />
         <Route path="/team/sahil" element={<Sahilpage />} />
         <Route path="/team/soham" element={<Sohampage />} />
+        <Route path="/chatbot" element={<ChatBot></ChatBot>}></Route>
       </Routes>
     </>
   );

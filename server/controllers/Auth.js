@@ -60,12 +60,11 @@ const signinController = async (req, res) => {
 
     // ✅ Set cookie with options
     res.cookie("token", token, {
-      httpOnly: true, // Prevents JS access
       secure: process.env.NODE_ENV === "production", // Set true only on HTTPS
       sameSite: "Lax", // or 'None' if frontend is on different domain with HTTPS
       maxAge: 24 * 60 * 60 * 1000, // 1 day
     });
-    console.log("signin successfull");
+    // console.log("signin successfull");
 
     return res.status(200).json({
       message: "Signin successful",

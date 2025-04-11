@@ -117,3 +117,47 @@
 [2025-04-10T23:11:03.456Z] [INFO] [USER:67f779c498465c069fa91ad5] ✅ Invoice saved: 67f850076e93a1879c654d31
 [2025-04-10T23:12:00.070Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
 [2025-04-10T23:12:02.083Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-11T01:30:00.807Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-11T01:30:03.554Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-11T01:30:17.395Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-11T01:31:00.469Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-11T01:31:03.749Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-11T01:31:03.775Z] [INFO] [USER:67f779c498465c069fa91ad5] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-11T01:31:04.098Z] [INFO] [USER:67f779c498465c069fa91ad5] ✅ Invoice saved: 67f870d8ffb4ef029f690402
+[2025-04-11T01:32:00.033Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-11T01:32:02.300Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-11T03:57:00.538Z] [INFO] [USER:67f779c498465c069fa91ad5] ⏰ Running scheduled email check
+[2025-04-11T03:57:05.158Z] [INFO] [USER:67f779c498465c069fa91ad5] 🚀 Initial processing completed: 0 invoices
+[2025-04-11T03:57:05.507Z] [INFO] [USER:67f779c498465c069fa91ad5] 🎉 Processed 0 invoices
+[2025-04-11T04:27:32.391Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🚀 Initial processing completed: 0 invoices
+[2025-04-11T04:28:00.555Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:28:02.527Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:39:00.600Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:39:03.260Z] [INFO] [USER:67f8979439d6c236ad756b0a] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-11T04:39:03.424Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:39:03.467Z] [INFO] [USER:67f8979439d6c236ad756b0a] ✅ Invoice saved: 67f89ce70d5939c62474aefb
+[2025-04-11T04:39:07.465Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🚀 Initial processing completed: 0 invoices
+[2025-04-11T04:40:00.048Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:40:01.992Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:41:00.451Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:41:02.410Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:42:00.991Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:42:03.076Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:43:00.400Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:43:02.502Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:44:00.810Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:44:02.835Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:45:00.130Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:45:03.470Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:46:00.527Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:46:02.614Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:47:00.956Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:47:02.892Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:48:00.334Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:48:02.322Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:49:00.761Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:49:02.783Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:50:00.182Z] [INFO] [USER:67f8979439d6c236ad756b0a] ⏰ Running scheduled email check
+[2025-04-11T04:50:02.881Z] [INFO] [USER:67f8979439d6c236ad756b0a] 🎉 Processed 0 invoices
+[2025-04-11T04:50:02.889Z] [INFO] [USER:67f8979439d6c236ad756b0a] 📎 Processing attachment: invoice-a00121234-netplus-ujwal.pdf
+[2025-04-11T04:50:02.988Z] [INFO] [USER:67f8979439d6c236ad756b0a] ✅ Invoice saved: 67f89f7a0d5939c62474af11

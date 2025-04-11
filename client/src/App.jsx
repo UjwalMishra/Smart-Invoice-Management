@@ -10,6 +10,7 @@ import Sahilpage from "./pages/Sahilpage";
 import Sohampage from "./pages/Sohampage";
 import DashBoard from "./pages/DashBoard";
 import Navbar from "./components/Navbar";
+import GmailDetailsForm from "./pages/GmailDetailsForm";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/addgmailappPass" element={<GmailDetailsForm />} />
         <Route path="/team/manviya" element={<Manviyapage />} />
         <Route path="/team/ujwal" element={<Ujwalpage />} />
         <Route path="/team/sahil" element={<Sahilpage />} />

@@ -1,43 +1,32 @@
-// pages/Login.jsx
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
 
-const Login = () => {
-  const [formData, setFormData] = useState({ email: "", password: "" });
+const GmailDetailsForm = () => {
+  const [gmailAddress, setGmailAddress] = useState("");
+  const [gmailAppPassword, setGmailAppPassword] = useState("");
   const [error, setError] = useState("");
-  const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-    setError("");
-    setSuccess("");
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true);
     setError("");
-    setSuccess("");
+    setLoading(true);
 
     try {
-      const res = await axios.post(
-        "http://localhost:8000/api/auth/signin",
-        formData,
-        { withCredentials: true }
-      );
-      setSuccess(res.data.message);
-      setTimeout(() => {
-        navigate("/"); // Change as needed
-      }, 1500);
-    } catch (err) {
-      if (err.response && err.response.data) {
-        setError(err.response.data.error);
-      } else {
-        setError("Something went wrong");
+      // Send request to the backend to update Gmail details
+      const response = await axios.put("/addgmailappPass", {
+        gmailAddress,
+        gmailAppPassword,
+      });
+
+      if (response.status === 200) {
+        // Redirect to dashboard or another page after successful update
+        navigate("/dashboard");
       }
+    } catch (err) {
+      setError("Error updating Gmail details. Please try again.");
     } finally {
       setLoading(false);
     }
@@ -60,32 +49,35 @@ const Login = () => {
     >
       <div className="bg-gray-900 p-8 rounded-2xl shadow-xl w-full max-w-md">
         <h2 className="text-3xl font-bold text-teal-400 text-center mb-6">
-          Login to Your Account
+          Add Gmail Details
         </h2>
 
         {error && <p className="text-red-400 mb-4 text-center">{error}</p>}
-        {success && <p className="text-teal-400 mb-4 text-center">{success}</p>}
 
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
-            <label className="block mb-1 text-sm text-gray-300">Email</label>
+            <label className="block mb-1 text-sm text-gray-300">
+              Gmail Address
+            </label>
             <input
               type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
+              placeholder="Enter your Gmail address"
+              value={gmailAddress}
+              onChange={(e) => setGmailAddress(e.target.value)}
               required
               className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-400"
             />
           </div>
 
           <div>
-            <label className="block mb-1 text-sm text-gray-300">Password</label>
+            <label className="block mb-1 text-sm text-gray-300">
+              Gmail App Password
+            </label>
             <input
               type="password"
-              name="password"
-              value={formData.password}
-              onChange={handleChange}
+              placeholder="Enter your Gmail App Password"
+              value={gmailAppPassword}
+              onChange={(e) => setGmailAppPassword(e.target.value)}
               required
               className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-400"
             />
@@ -96,22 +88,12 @@ const Login = () => {
             disabled={loading}
             className="w-full bg-teal-500 text-black font-semibold py-2 rounded-xl hover:bg-teal-400 transition duration-300"
           >
-            {loading ? "Logging in..." : "Login"}
+            {loading ? "Saving..." : "Update Gmail Details"}
           </button>
         </form>
-
-        <p className="mt-6 text-center text-sm text-gray-400">
-          Don’t have an account?{" "}
-          <Link
-            to="/signup"
-            className="text-teal-400 hover:underline cursor-pointer"
-          >
-            Sign up
-          </Link>
-        </p>
       </div>
     </div>
   );
 };
 
-export default Login;
+export default GmailDetailsForm;

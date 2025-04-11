@@ -8,6 +8,7 @@ const emailAutomationRoutes = require("./routes/emailRoutes");
 const userRoutes = require("./routes/user");
 const getAllInvoices = require("./routes/invoiceRoute");
 const { dbConnect } = require("./config/dbConnection");
+const { checkAuthCookie } = require("./middlewares/authentication");
 
 const app = express();
 const PORT = process.env.PORT || 8000;
@@ -18,6 +19,7 @@ dbConnect();
 // Middlewares
 app.use(express.json());
 app.use(cookieParser());
+app.use(checkAuthCookie("token"));
 app.use(
   cors({
     origin: "http://localhost:5173",

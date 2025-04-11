@@ -15,7 +15,7 @@ const { getEmailCredentials } = require("../services/getEmailCredentials");
 async function initializeEmailProcessing(userId) {
   try {
     const userData = await getEmailCredentials(userId);
-    console.log("user data : ", userData);
+    // console.log("user data : ", userData);
     if (!userData?.user || !userData?.password) {
       throw new Error("Missing email credentials for user");
     }

@@ -2,12 +2,13 @@ const express = require("express");
 const router = express.Router();
 const Invoice = require("../models/Invoice"); // adjust the path as per your structure
 const { restrictToLoggedinUserOnly } = require("../middlewares/authentication"); // assuming you use JWT
+const User = require("../models/User");
 
 // GET all invoices of a user
 router.get("/getInvoices", restrictToLoggedinUserOnly, async (req, res) => {
   try {
-    const userId = req.user.id; // populated by verifyToken middleware
-
+    const userId = req.user._id;
+    // const userData = await User.findById(userId);
     const invoices = await Invoice.find({ user: userId }).sort({
       createdAt: -1,
     });

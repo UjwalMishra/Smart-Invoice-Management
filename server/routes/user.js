@@ -35,7 +35,11 @@ router.get(
     }
   }
 );
-
+// router.get("/dashboard", restrictToLoggedinUserOnly, (req, res) => {
+//   res.status(200).json({
+//     msg: "welcome user",
+//   });
+// });
 // Log-out route - clears the token cookie
 router.post("/logout", (req, res) => {
   res

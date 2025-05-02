@@ -14,22 +14,26 @@ import GmailDetailsForm from "./pages/GmailDetailsForm";
 import ChatBot from "./components/ChatBot";
 function App() {
   return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/dashboard" element={<DashBoard />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/addgmailappPass" element={<GmailDetailsForm />} />
-        <Route path="/team/manviya" element={<Manviyapage />} />
-        <Route path="/team/ujwal" element={<Ujwalpage />} />
-        <Route path="/team/sahil" element={<Sahilpage />} />
-        <Route path="/team/soham" element={<Sohampage />} />
-        <Route path="/chatbot" element={<ChatBot></ChatBot>}></Route>
-      </Routes>
-    </>
+    <div className="relative">
+      <div className="bg-[#0f172a] top-0 right-0 left-0 fixed z-10">
+        <Navbar />
+      </div>
+      <div className=" absolute z-0 w-full">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/dashboard" element={<DashBoard />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/addgmailappPass" element={<GmailDetailsForm />} />
+          <Route path="/team/manviya" element={<Manviyapage />} />
+          <Route path="/team/ujwal" element={<Ujwalpage />} />
+          <Route path="/team/sahil" element={<Sahilpage />} />
+          <Route path="/team/soham" element={<Sohampage />} />
+          <Route path="/chatbot" element={<ChatBot></ChatBot>}></Route>
+        </Routes>
+      </div>
+    </div>
   );
 }
 
